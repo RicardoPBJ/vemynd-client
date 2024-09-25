@@ -1,14 +1,7 @@
 import Image from "next/image";
-import { logo, IconMenu } from "@/images";
+import { logo } from "@/images";
 import { Button } from "./ui/button";
-import {
-  Sheet,
-  SheetTrigger,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetDescription,
-} from "@/components/ui/sheet";
+import SheetHandler from "./SheetHandler";
 
 export default function Header() {
   return (
@@ -19,20 +12,7 @@ export default function Header() {
         <Button className="bg-gradient-to-r from-[#5D47E9] to-[#C6BDFF] text-white font-bold">
           Cadastre-se agora
         </Button>
-        <Sheet>
-          <SheetTrigger>
-            <Image src={IconMenu} alt="iconMenu" className="lg:hidden" />
-          </SheetTrigger>
-          <SheetContent className="lg:hidden">
-            <SheetHeader>
-              <SheetTitle>Are you absolutely sure?</SheetTitle>
-              <SheetDescription>
-                This action cannot be undone. This will permanently delete your
-                account and remove your data from our servers.
-              </SheetDescription>
-            </SheetHeader>
-          </SheetContent>
-        </Sheet>
+        <SheetHandler />
       </div>
     </header>
   );
