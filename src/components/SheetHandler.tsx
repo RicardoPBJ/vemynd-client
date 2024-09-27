@@ -12,9 +12,9 @@ function SheetHandler() {
     <Sheet>
       <SheetTrigger>
         <div>
-          <span />a
-          <span />a
-          <span />a
+          <span />
+          <span />
+          <span />
         </div>
       </SheetTrigger>
       <SheetContent className="bg-transparent">
