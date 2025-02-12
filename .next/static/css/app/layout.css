@@ -577,8 +577,29 @@ video {
 .top-4 {
   top: 1rem;
 }
+.top-3 {
+  top: 0.75rem;
+}
 .z-50 {
   z-index: 50;
+}
+.m-\[-08em\] {
+  margin: -08em;
+}
+.m-\[-0\.8em\] {
+  margin: -0.8em;
+}
+.m-\[-1em\] {
+  margin: -1em;
+}
+.m-\[-em\] {
+  margin: -em;
+}
+.m-\[1em\] {
+  margin: 1em;
+}
+.m-\[-0\.7em\] {
+  margin: -0.7em;
 }
 .flex {
   display: flex;
@@ -607,11 +628,23 @@ video {
 .h-\[1\.2em\] {
   height: 1.2em;
 }
+.h-\[2rem\] {
+  height: 2rem;
+}
 .h-\[5rem\] {
   height: 5rem;
 }
 .h-full {
   height: 100%;
+}
+.h-\[0\.9rem\] {
+  height: 0.9rem;
+}
+.h-\[1\.9rem\] {
+  height: 1.9rem;
+}
+.h-\[1\.8rem\] {
+  height: 1.8rem;
 }
 .w-3\/4 {
   width: 75%;
@@ -630,6 +663,27 @@ video {
 }
 .w-\[10rem\] {
   width: 10rem;
+}
+.w-\[11rem\] {
+  width: 11rem;
+}
+.w-\[12rem\] {
+  width: 12rem;
+}
+.w-3 {
+  width: 0.75rem;
+}
+.w-\[5rem\] {
+  width: 5rem;
+}
+.w-\[7rem\] {
+  width: 7rem;
+}
+.w-1 {
+  width: 0.25rem;
+}
+.w-10 {
+  width: 2.5rem;
 }
 .-translate-y-2 {
   --tw-translate-y: -0.5rem;
@@ -674,13 +728,26 @@ video {
 .gap-4 {
   gap: 1rem;
 }
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .whitespace-nowrap {
   white-space: nowrap;
+}
+.rounded-\[2em\] {
+  border-radius: 2em;
 }
 .rounded-md {
   border-radius: calc(var(--radius) - 2px);
@@ -742,6 +809,15 @@ video {
 .p-6 {
   padding: 1.5rem;
 }
+.p-1 {
+  padding: 0.25rem;
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -758,8 +834,23 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.pt-3 {
+  padding-top: 0.75rem;
+}
+.pt-5 {
+  padding-top: 1.25rem;
+}
+.pt-10 {
+  padding-top: 2.5rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
+}
 .text-center {
   text-align: center;
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -773,14 +864,36 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.font-bold {
-  font-weight: 700;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+.text-\[0\.5rem\] {
+  font-size: 0.5rem;
+}
+.text-\[0\.9rem\] {
+  font-size: 0.9rem;
+}
+.text-\[0\.8rem\] {
+  font-size: 0.8rem;
+}
+.font-\[300\] {
+  font-weight: 300;
 }
 .font-medium {
   font-weight: 500;
 }
 .font-semibold {
   font-weight: 600;
+}
+.font-normal {
+  font-weight: 400;
+}
+.italic {
+  font-style: italic;
 }
 .text-destructive-foreground {
   color: hsl(var(--destructive-foreground));
@@ -877,6 +990,8 @@ video {
 .ease-in-out {
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 :root {
   --font-size-360: 13px;
