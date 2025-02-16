@@ -15,7 +15,7 @@ export default function Header() {
       <div className="flex justify-around items-center space-x-5 ">
         <NavBar />
         <Button className="hidden lg:flex">Entrar</Button>
-        <Button className="h-[1.8rem] w-[12rem] rounded-[2em] bg-gradient-to-r from-[#5D47E9] to-[#C6BDFF] text-white font-normal italic text-[0.9rem] font-open-sans">
+        <Button className="h-[1.8rem] w-[12rem] rounded-[2em] bg-gradient-to-r from-[#5D47E9] to-[#C6BDFF] text-white font-normal italic text-[0.9rem] font-open-sans lg:rounded-sms">
           Cadastre-se agora
         </Button>
         <SheetHandler />
