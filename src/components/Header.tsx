@@ -14,8 +14,8 @@ export default function Header() {
       </div>
       <div className="flex justify-around items-center space-x-5 ">
         <NavBar />
-        <Button className="hidden lg:flex lg:bg-transparent text-[#5D47E9] border-2 border-[#5D47E9] rounded-[0.7rem] w-20">Entrar</Button>
-        <Button className="h-[1.8rem] lg:h-[2.3rem] w-[12rem] lg:w-[9rem] rounded-[2em] lg:rounded-[0.7rem] bg-gradient-to-r from-[#5D47E9] to-[#C6BDFF] text-white text-[0.9rem] font-open-sans">
+        <Button className="hidden lg:flex lg:bg-transparent text-[#5D47E9] text-[0.9rem] border-2 border-[#5D47E9] rounded-[0.7rem] w-20 h-[1.8rem]">Entrar</Button>
+        <Button className="h-[1.8rem] lg:h-[1.8rem] w-[12rem] lg:w-[7.5rem] rounded-[2em] lg:rounded-[0.7rem] bg-gradient-to-r from-[#5D47E9] to-[#C6BDFF] text-white text-[0.9rem] lg:text-[0.7rem] font-open-sans">
           Cadastre-se agora
         </Button>
         <SheetHandler />
