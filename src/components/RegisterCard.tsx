@@ -27,7 +27,7 @@ function RegisterCard() {
   return (
     <div
       className="flex flex-col bg-white  p-6 m-6 rounded-lg
-      lg:p-0 lg:py-4 lg:mt-[3rem] lg:mb-[7rem] lg:w-[19rem] lg:rounded-sm"
+      lg:p-0 lg:py-4 lg:mt-[3rem] lg:mb-[7rem] lg:w-[19rem] lg:h-[17.5rem] lg:rounded-sm"
     >
       <div className="flex items-center pb-8 lg:pb-5 lg:items-start lg:pl-6">
         <h1 className="text-[#5D47E9] text-[1.3rem] border-b border-[#5D47E9] pb-2 lg:text-[0.8rem]">
