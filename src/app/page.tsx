@@ -5,15 +5,15 @@ import RegisterCard from "@/components/RegisterCard";
 
 export default function Home() {
   return (
-    <div className="bg-[#F6F6F6] pb-4 lg:flex lg:justify-between lg:items-center lg:px-[4rem]">
-      <section className="justify-center align-center lg:items-start">
+    <div className="bg-[#F6F6F6] min-h-[100vh] lg:flex lg:justify-between lg:px-[4rem]">
+      <section className="justify-center align-center lg:items-start lg:mt-[6.5rem]">
         <div className="px-8 lg:px-0">
           <Image
             src={homeText}
             alt="home-text"
-            className="w-[26rem] pt-[3.8rem] lg:pt-[5rem] pb-[1rem] lg:w-[20rem]"
+            className="w-[26rem] pt-[3.8rem] lg:pt-0 pb-[1rem] lg:w-[19rem] "
           />
-          <p className="text-[#5A5F64] text-left lg:text-[0.8rem] lg:w-[21rem] lg:font-medium">
+          <p className="text-[#5A5F64] text-left lg:text-[0.6rem] lg:w-[17rem] lg:font-medium">
             Seu negócio digital começa aqui. Transforme ideias em vendas,
             conecte-se com clientes e cresça sem limites.
           </p>
