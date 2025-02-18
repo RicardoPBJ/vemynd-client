@@ -5,7 +5,7 @@ import RegisterCard from "@/components/RegisterCard";
 
 export default function Home() {
   return (
-    <div className="bg-[#F6F6F6] lg:flex lg:justify-between lg:items-center lg:px-[4rem]">
+    <div className="bg-[#F6F6F6] pb-4 lg:flex lg:justify-between lg:items-center lg:px-[4rem]">
       <section className="justify-center align-center lg:items-start">
         <div className="px-8 lg:px-0">
           <Image
