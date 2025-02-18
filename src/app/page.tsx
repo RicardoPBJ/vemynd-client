@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { homeText } from "@/images";
+import RegisterCard from "@/components/RegisterCard";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <div>registrar</div>
+      <RegisterCard />
     </div>
   );
 }
