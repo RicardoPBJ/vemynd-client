@@ -3,6 +3,7 @@ import { logo1, logo2, logo3 } from "@/images";
 import { Button } from "./ui/button";
 import SheetHandler from "./SheetHandler";
 import NavBar from "./NavBar";
+import NavMenuHandler from "./NavMenuHandler";
 
 export default function Header() {
   return (
@@ -24,7 +25,7 @@ export default function Header() {
         <Button className="h-[1.8rem] lg:h-[1.6rem] w-[11rem] lg:w-[7.5rem] rounded-[2em] lg:rounded-[0.6rem] bg-gradient-to-r from-[#5D47E9] to-[#C6BDFF] text-white text-[0.8rem] lg:text-[0.69rem] font-open-sans">
           Cadastre-se agora
         </Button>
-        <SheetHandler />
+        <NavMenuHandler />
       </div>
     </header>
   );
