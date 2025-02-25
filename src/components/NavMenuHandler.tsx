@@ -26,17 +26,17 @@ function NavMenuHandler() {
             onClick={handleClick}
           >
             <div
-              className={`h-1 w-[1.6rem] bg-[#5D47E9] rounded-sm transition-transform duration-300 ${
+              className={`h-1 w-[1.8rem] bg-[#5D47E9] rounded-sm transition-transform duration-300 ${
                 clicked ? "transform translate-y-2 rotate-45" : ""
               }`}
             ></div>
             <div
-              className={`h-1 w-[1.6rem] bg-[#5D47E9] rounded-sm transition-opacity duration-300 ${
+              className={`h-1 w-[1.8rem] bg-[#5D47E9] rounded-sm transition-opacity duration-300 ${
                 clicked ? "hidden" : ""
               }`}
             ></div>
             <div
-              className={`h-1 w-[1.6rem] bg-[#5D47E9] rounded-sm transition-transform duration-300 ${
+              className={`h-1 w-[1.8rem] bg-[#5D47E9] rounded-sm transition-transform duration-300 ${
                 clicked ? "transform -translate-y-2 -rotate-45" : ""
               }`}
             ></div>
