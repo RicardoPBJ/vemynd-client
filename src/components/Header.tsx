@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { logo1, logo2, logo3 } from "@/images";
 import { Button } from "./ui/button";
-import SheetHandler from "./SheetHandler";
 import NavBar from "./NavBar";
 import NavMenuHandler from "./NavMenuHandler";
 
