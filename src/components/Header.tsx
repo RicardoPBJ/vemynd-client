@@ -7,7 +7,7 @@ import NavMenuHandler from "./NavMenuHandler";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-evenly py-4 lg:justify-between lg:px-6">
+    <header className="bg-white sticky z-100 top-0 flex items-center justify-evenly py-4 lg:justify-between lg:px-6">
       <div className="flex items-center lg:pl-5">
         <Image src={logo1} alt="logo1" className="lg:w-5" />
         <Image

@@ -8,6 +8,7 @@ import {
   NavigationMenuContent,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import "../styles/slideDownAnime.css";
 
 function NavMenuHandler() {
   const [clicked, setClicked] = useState(false);
@@ -17,7 +18,7 @@ function NavMenuHandler() {
     console.log(clicked);
   };
   return (
-    <NavigationMenu>
+    <NavigationMenu className="lg:hidden">
       <NavigationMenuItem className="flex items-center justify-center">
         <NavigationMenuTrigger>
           <div
@@ -41,14 +42,28 @@ function NavMenuHandler() {
             ></div>
           </div>
         </NavigationMenuTrigger>
-        <NavigationMenuContent>
-          <NavigationMenuLink href="/cursos">
+        <NavigationMenuContent
+          className={`bg-white relative h-auto flex flex-col items-center
+            ${
+              clicked ? "animate-slide-down" : "animate-slide-up"
+            } overflow-hidden border-none`}
+        >
+          <NavigationMenuLink
+            href="/cursos"
+            className=" text-md p-4 font-semibold border-y rounded-none w-[100vw] text-center"
+          >
             Acesse os Cursos
           </NavigationMenuLink>
-          <NavigationMenuLink href="/afiliado">
+          <NavigationMenuLink
+            href="/afiliado"
+            className=" text-md p-4 font-semibold border-b w-[100vw] text-center rounded-none"
+          >
             Seja um afiliado
           </NavigationMenuLink>
-          <NavigationMenuLink href="/produto">
+          <NavigationMenuLink
+            href="/produto"
+            className=" text-md font-semibold p-4 border-b w-[100vw] text-center rounded-none"
+          >
             Crie um produto
           </NavigationMenuLink>
         </NavigationMenuContent>
